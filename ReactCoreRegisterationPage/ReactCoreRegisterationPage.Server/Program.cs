@@ -1,8 +1,13 @@
 
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using ReactCoreRegisterationPage.Server.Controllers;
+
 namespace ReactCoreRegisterationPage.Server
 {
     public class Program
     {
+      
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
@@ -13,7 +18,8 @@ namespace ReactCoreRegisterationPage.Server
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-
+            builder.Services.AddDbContext<RegisterationDbContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
             var app = builder.Build();
 
             app.UseDefaultFiles();
@@ -34,6 +40,8 @@ namespace ReactCoreRegisterationPage.Server
             app.MapControllers();
 
             app.MapFallbackToFile("/index.html");
+
+                        app.MapRegisteredPersonEndpoints();
 
             app.Run();
         }

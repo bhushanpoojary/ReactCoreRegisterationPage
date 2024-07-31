@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\a\\source\\repos\\ReactCoreRegisterationPage\\ReactCoreRegisterationPage.Server\\ReactCoreRegisterationPage.Server.csproj": {}
+    "C:\\Users\\a\\Projects\\ReactCoreRegisterationPage\\ReactCoreRegisterationPage\\ReactCoreRegisterationPage.Server\\ReactCoreRegisterationPage.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\a\\source\\repos\\ReactCoreRegisterationPage\\ReactCoreRegisterationPage.Server\\ReactCoreRegisterationPage.Server.csproj": {
+    "C:\\Users\\a\\Projects\\ReactCoreRegisterationPage\\ReactCoreRegisterationPage\\ReactCoreRegisterationPage.Server\\ReactCoreRegisterationPage.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a\\source\\repos\\ReactCoreRegisterationPage\\ReactCoreRegisterationPage.Server\\ReactCoreRegisterationPage.Server.csproj",
+        "projectUniqueName": "C:\\Users\\a\\Projects\\ReactCoreRegisterationPage\\ReactCoreRegisterationPage\\ReactCoreRegisterationPage.Server\\ReactCoreRegisterationPage.Server.csproj",
         "projectName": "ReactCoreRegisterationPage.Server",
-        "projectPath": "C:\\Users\\a\\source\\repos\\ReactCoreRegisterationPage\\ReactCoreRegisterationPage.Server\\ReactCoreRegisterationPage.Server.csproj",
+        "projectPath": "C:\\Users\\a\\Projects\\ReactCoreRegisterationPage\\ReactCoreRegisterationPage\\ReactCoreRegisterationPage.Server\\ReactCoreRegisterationPage.Server.csproj",
         "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a\\source\\repos\\ReactCoreRegisterationPage\\ReactCoreRegisterationPage.Server\\obj\\",
+        "outputPath": "C:\\Users\\a\\Projects\\ReactCoreRegisterationPage\\ReactCoreRegisterationPage\\ReactCoreRegisterationPage.Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,13 +40,43 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
             "Microsoft.AspNetCore.SpaProxy": {
               "target": "Package",
               "version": "[8.*-*, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.6.2, )"
             }
           },
           "imports": [

@@ -1,1 +1,2 @@
 C:\Users\a\source\repos\ReactCoreRegisterationPage\reactcoreregisterationpage.client\obj\Debug\reactcoreregisterationpage.client.esproj.CoreCompileInputs.cache
+C:\Users\a\Projects\ReactCoreRegisterationPage\ReactCoreRegisterationPage\reactcoreregisterationpage.client\obj\Debug\reactcoreregisterationpage.client.esproj.CoreCompileInputs.cache

@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:5173",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "C:\\Users\\a\\source\\repos\\ReactCoreRegisterationPage\\ReactCoreRegisterationPage.Server\\..\\reactcoreregisterationpage.client",
+"WorkingDirectory": "C:\\Users\\a\\Projects\\ReactCoreRegisterationPage\\ReactCoreRegisterationPage\\ReactCoreRegisterationPage.Server\\..\\reactcoreregisterationpage.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }
