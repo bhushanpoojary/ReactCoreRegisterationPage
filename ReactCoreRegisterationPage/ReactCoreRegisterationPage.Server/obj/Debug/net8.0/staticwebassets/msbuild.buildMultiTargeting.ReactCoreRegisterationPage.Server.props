@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ReactCoreRegisterationPage.Server.props" />
+</Project>
